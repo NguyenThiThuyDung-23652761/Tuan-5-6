@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            justify-content: center;
+            justify-content: space-around;
+            
+            grid-template-areas: "card card card";
+            
+        }
+        .card{
+            background-color: rgb(181, 132, 226);
+            padding: 20px;
+            border-radius: 10px;
+            height: 50vh;
+            width: 30vh;
+        }
+        #card1{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mon hoc yeu thich</h1>
+    <div class="container">
+        <div id = card1 class="card">Toan</div>
+        <div id = card1 class="card">Van</div>
+        <div id = card1 class="card">Anh</div>
+            
+    </div>
+
+</body>
+</html>
