@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            display:flex;
+            justify-content: center;
+            gap: 60px;
+        }
+        .menu li a{
+            color:rgb(209, 128, 52);
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .menu li a:after{
+            position: absolute;
+            height: 2px;
+            transition: width 0.3s ease;
+        }
+        .menu li a :hover{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>   
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    
+
+    
+</body>
+</html>
