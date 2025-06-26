@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px
+        }
+    </style>
+</head>
+<body>
+    <h1>Đăng ký thông tin</h1>
+    <div calss="container">
+        <div class="row">
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name">
+        </div>
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="row">
+            <label for="date">Ngày sinh</label>
+            <input type="date" id="date">
+        </div>
+        <div class="row">
+            <label for="phone">Số điện thoại</label>
+            <input type="phone" id="phone">
+        </div>
+        <div class="row">
+            <label for="address">Địa chỉ</label>
+            <input type="address" id="address">
+        </div>
+        <div class="row">
+            <label for="gender"> Giới tính</label>
+            <select name="gender" id="gender">
+                <option value="gender">Nam</option>
+                <option value="gender">Nữ</option>
+            </select>
+        </div>
+        <button type="submit">Gửi đăng ký</button>
+
+    </div>
+</body>
+</html>
